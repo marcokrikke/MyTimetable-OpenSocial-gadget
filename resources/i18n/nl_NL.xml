@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<messagebundle>
+	<!-- Gadget properties -->
+	<msg name="title">MyTimetable</msg>
+	<msg name="description">Komende roosteractiviteiten</msg>
+	
+	<!-- Preferences -->
+	<msg name="numevents">Aantal lessen</msg>
+	<msg name="lang">Taal</msg>
+	<msg name="lang-default">Automatisch</msg>
+	<msg name="lang-en">Engels</msg>
+	<msg name="lang-nl">Nederlands</msg>
+	
+	<!-- View -->
+	<msg name="loading">Bezig met het laden het rooster...</msg>
+	<msg name="full-app">Ga naar MyTimetable</msg>
+	
+	<!-- Timetable -->
+	<msg name="description">Description</msg>
+	<msg name="date">Date</msg>
+	<msg name="time">Time</msg>
+	<msg name="location">Location</msg>
+	<msg name="no-activities">Er zijn geen aankomende activiteiten. Ga naar MyTimetable om roosters aan je profiel toe te voegen.</msg>
+	
+	<!-- OAuth -->
+	<msg name="approval">Klik hier om deze gadget toegang te geven tot je persoonlijk rooster.</msg>
+	<msg name="approval-done">Klik hier zodra je toegang hebt gegeten tot je persoonlijk rooster.</msg>
+</messagebundle>

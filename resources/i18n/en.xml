@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<messagebundle>
+	<!-- Gadget properties -->
+	<msg name="title">MyTimetable</msg>
+	<msg name="description">Upcoming timetable events</msg>
+	
+	<!-- Preferences -->
+	<msg name="numevents">Number of events</msg>
+	<msg name="lang">Language</msg>
+	<msg name="lang-default">Automatic</msg>
+	<msg name="lang-en">English</msg>
+	<msg name="lang-nl">Dutch</msg>
+	
+	<!-- View -->
+	<msg name="loading">Loading timetable, please wait...</msg>
+	<msg name="full-app">Go to MyTimetable</msg>
+	
+	<!-- Timetable -->
+	<msg name="description">Description</msg>
+	<msg name="date">Date</msg>
+	<msg name="time">Time</msg>
+	<msg name="location">Location</msg>
+	<msg name="no-activities">There are no upcoming activities. Please go to MyTimetable to add timetables to your profile.</msg>
+	
+	<!-- OAuth -->
+	<msg name="approval">Click here to let this gadget access your personal timetable.</msg>
+	<msg name="approval-done">Please click here once you've approved access to your timetable.</msg>
+</messagebundle>

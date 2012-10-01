@@ -1,0 +1,251 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
+	{
+	display: block;
+}
+
+nav ul {
+	list-style: none;
+}
+
+blockquote,q {
+	quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+	content: '';
+	content: none;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+abbr[title],dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* change border color to suit your needs */
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+input,select {
+	vertical-align: middle;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+#headline-left { /*width: 48%;
+	float: left;*/
+	margin-right: 3.8%;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #E5E5E5;
+	padding-bottom: 15px;
+}
+
+#headline-right { /*width: 48%;
+	float: right;*/
+	margin-bottom: 5px;
+	border-bottom: 1px solid #E5E5E5;
+	padding-bottom: 15px;
+}
+
+body {
+	color: #000;
+	font-size: 68.75%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1.8;
+}
+
+body,td,div,span,p {
+	font-family: Tahoma, Arial, sans-serif;
+}
+
+h1 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1.2em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1.4285em;
+	/*margin: 0 0 8px;
+	height: 37px;
+	overflow: hidden;*/
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	/*height: 65px;
+	overflow: hidden;*/
+}
+
+p.read-more {
+	height: auto;
+}
+
+a,a:visited {
+	color: #000;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* TT */
+table.eveoh-upcoming-activities {
+	width: 100%;
+	margin-bottom: 5px;
+	table-layout: fixed;
+	white-space: nowrap;
+}
+
+table.eveoh-upcoming-activities tr td,table.eveoh-upcoming-activities th
+	{
+	padding: 0 3px 0.8571em 3px;
+}
+
+table.eveoh-upcoming-activities th {
+	color: #000;
+	font-weight: bold;
+	text-align: left;
+}
+
+table.eveoh-upcoming-activities tr th.header-activity {
+	
+}
+
+table.eveoh-upcoming-activities tr th.header-date {
+	width: 70px;
+	min-width: 70px;
+}
+
+table.eveoh-upcoming-activities tr th.header-time {
+	width: 85px;
+	min-width: 85px;
+}
+
+table.eveoh-upcoming-activities tr th.header-location {
+	width: 120px;
+	min-width: 120px;
+}
+
+table.eveoh-upcoming-activities tr td.activity ul li {
+	list-style: square outside none;
+	margin-left: 18px;
+	float: left;
+}
+
+table.eveoh-upcoming-activities tr td.act-other ul li {
+	color: #000;
+}
+
+table.eveoh-upcoming-activities tr td.act-class ul li {
+	color: #000;
+}
+
+table.eveoh-upcoming-activities tr td.activity span {
+	color: #000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-ms-text-overflow: ellipsis;
+	-moz-binding: url('xml/ff_ellipsis.xml#ellipsis');
+	/* Fix for FF 3.x, fixed in FF7 (https://bugzilla.mozilla.org/show_bug.cgi?id=312156) */
+	display: block;
+	padding-bottom: 1px;
+}
+
+.all-items {
+	display: none;
+}
+
+.multiple-locations {
+	border-bottom: .1em dotted;
+}
+
+p.error {
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+ul.error li {
+	list-style: square outside none;
+	margin-left: 18px;
+}
+
+.mmlib_table {
+	font-family: arial, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	padding: 5px 3px;
+	color: #fff;
+	background-color: red;
+}
+
+#approval,#waiting,#noactivities {
+	display: none;
+}

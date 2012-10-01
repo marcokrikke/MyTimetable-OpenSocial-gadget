@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+	<!-- Module preferences -->
+	<ModulePrefs title="__MSG_title__" description="__MSG_description__" author="Eveoh"
+		author_email="info@eveoh.nl">
+		<Require feature="opensocial-1.0" />
+		<Require feature="dynamic-height" />
+		<Require feature="setprefs" />
+    	<Require feature="oauthpopup" />
+    	<Require feature="opensocial-i18n" />
+    	<Require feature="minimessage" />
+		
+		<Locale messages="resources/i18n/en.xml" />
+		<Locale lang="nl_NL" messages="resources/i18n/nl_NL.xml" />
+		
+		<OAuth2>
+      		<Service name="mytimetable_demo" />
+    	</OAuth2>
+	</ModulePrefs>
+	
+	<!-- User preferences -->
+	<UserPref name="number-of-events" display_name="__MSG_numevents__"
+		datatype="string" default_value="5" />
+	
+	<!-- Content -->
+	<Content type="html">
+			<![CDATA[
+			<link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+			
+			<script type="text/javascript" src="resources/js/lib/jquery-1.7.2.min.js"></script>
+			<script type="text/javascript" src="resources/js/lib/jquery-pubsub.js"></script>
+			<script type="text/javascript" src="resources/js/lib/jquery.qtip-1.0.0-rc3.min.js"></script>
+			<script type="text/javascript" src="resources/js/oauth.js"></script>
+			<script type="text/javascript" src="resources/js/timetable.js"></script>
+			<script type="text/javascript" src="resources/js/main.js"></script>
+					
+			<script type="text/javascript">			
+				gadgets.util.registerOnLoadHandler(initgadget);
+			</script>
+    		
+    		<div id="approval">
+				<a href="#" id="personalize">__MSG_approval__</a>
+		    </div>
+		
+		    <div id="waiting">
+		    	<a href="#" id="approvaldone">__MSG_approval-done__</a>
+		    </div>
+					
+			<div id="loading">__MSG_loading__</div>
+			
+			<div id="noactivities">__MSG_no-activities__</div>
+			
+			<table class="eveoh-upcoming-activities" cellpadding="0"
+				cellspacing="0" id="activities" style="display: none">
+				<thead>
+					<tr>
+						<th class="header-activity">__MSG_description__</th>
+						<th class="header-date">__MSG_date__</th>
+						<th class="header-time">__MSG_time__</th>
+						<th class="header-location">__MSG_location__</th>
+					</tr>
+				</thead>
+				<tbody id="activities">
+				</tbody>
+			</table>
+	
+			<a href="http://demo.eveoh.nl" target="_blank" class="full-app">__MSG_full-app__</a>
+			]]>
+	</Content>
+</Module>
